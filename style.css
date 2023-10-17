@@ -1,0 +1,148 @@
+ 
+ *{
+    margin: 0;
+    padding: 0;
+   
+
+ }
+
+ :root {
+  --lm-bg: #f6f8ff;
+  --lm-bg-content: #fefefe;
+  --lm-text: #4b6a9b;
+  --lm-text-alt: #2b3442;
+  --lm-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+  --lm-shadow-inactive: 0px 16px 30px -10px rgba(0, 0, 0, 0.2);
+  --lm-icon-bg: brightness(100%);
+  /* Btn */
+  --btn: #0079ff;
+  --btn-hover: #60abff;
+}
+
+
+body{
+   display: flex;
+    
+    background-color: var(--lm-bg);
+    justify-content: center;
+}
+ 
+ .container{
+ 
+  color: var(--lm-text);
+    width:550px;
+    height: 99vh;
+    margin: 0 auto;
+    
+    max-width:80% ; 
+    display: flex;
+    flex-direction: column;
+     
+    justify-content: center;
+    position: relative;
+     
+ }
+
+ .header{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .btn-mode{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .node{
+    margin-right: 3rem ;
+ }
+
+ .search-Container{
+  min-width:  500px;
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+ }
+
+
+ .profile-container{
+ min-width:  500px;
+ margin: 30px;
+  
+ }
+
+ .profile-header{
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+ }
+
+ .profile-header img{
+   width: 100px;
+   border-radius: 50%;
+ }
+
+ .profile-info-wrapper{
+    display: flex;
+    width: 80%;
+justify-content: space-evenly; 
+margin: 20px;
+ }
+
+ #bio{
+   /* width: 80%;
+   
+position: absolute;
+right:0 ; */
+margin-left: 30%;
+ }
+
+ .profile-stats-wrapper{
+   display: flex;
+   justify-content: space-evenly;
+   margin-left: 30%;
+   margin-top: 2%;
+ }
+
+ .profile-bottom-wrapper{
+ /* display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ width: 80%;
+ margin-left: 20%;
+ margin-top: 3%; */
+ display: grid;
+ grid-template-columns: 1fr 1fr ;
+ gap: 30px;
+ width: 80%;
+ margin-left: 20%;
+ 
+ }
+ 
+ .search-Container input{
+   width: 100%;
+padding: 10px;
+   height: 3rem;
+    
+   margin: 2px;
+   border-radius: 10px;
+ }
+
+ .search-Container button{
+   width: 15%;
+   height: 30px;
+   border-radius: 10px;
+   position: absolute;
+   right: 3%;
+   top: 20%;
+   margin-right: 10px;
+ 
+   background-color: aquamarine;
+   cursor: pointer;
+ }
+ .error{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  color: red;
+ }

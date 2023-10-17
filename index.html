@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body  id="a">
+    <div class="container">
+        <header class="header">
+            <h1 class="title"> Devdectctve</h1>
+            <div class="btn-mode" id="btn-mode">
+                <p class="mode-text" id="mode-text" style="padding: 10px;">
+                    Dark
+                </p>
+                <div class="icon-container">
+                    <img id="mode-icon" src="./images/moon-icon.svg" alt="" >
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="app">
+                <div class="search-Container active">
+                    <input type="search" name="user-input" placeholder="enter a git hub username....... "  id="input">
+               
+                    <div class="error">
+                        <p id="no-result"> no search result </p>
+                    </div>
+
+                    <button class="btn-search" id="submit">search</button>
+                </div>
+
+                <div class="profile-container">
+                    <div class="profile-content">
+
+                        <div class="profile-header">
+
+                            <img id="avator" src="./images/website-icon.svg" alt=" ">
+
+                            <div class="profile-info-wrapper">
+
+                                <div class="profile-name">
+                                    <h2 id="name"></h2>
+                                    <a href="#" rel="noopener noreferrer" id="user" target="_blank"></a>
+                                </div>
+
+                                <p id="date"></p>
+                            </div>
+                        </div>
+
+                        <p id="bio"></p>
+
+                        <div class="profile-stats-wrapper">
+
+                            <div class="profile-stat">
+                                <p class="stat-title">Repos</p>
+                                <p id="repos" class="stat-value"></p>
+                            </div>
+                            
+                            <div class="profile-stat">
+                                <p class="stat-title">Followers</p>
+                                <p id="follwers" class="stat-value"></p>
+                            </div>
+                            
+
+                            <div class="profile-stat">
+                                <p class="stat-title">Following</p>
+                                <p id="following" class="stat-value"></p>
+                            </div>
+                            
+                        </div>
+
+                        <div class="profile-bottom-wrapper">
+
+                            <div class="profile-info">
+                                <div class="bottom-icon">
+                                    <img src="./images/location-icon.svg" alt="">
+                                    
+                                </div>
+                                <p id="location">Not available</p>
+                            </div>
+
+                            
+                            <div class="profile-info">
+                                <div class="bottom-icon">
+                                    <img src="./images/website-icon.svg" alt="">
+                                    
+                                </div>
+                                <p id="git-link"></p>
+                                <a href="#" id="page">Not available</a>
+                            </div>
+
+
+                            
+                            <div class="profile-info">
+                                <div class="bottom-icon">
+                                    <img src="./images/twitter-icon.svg" alt="">
+                                    
+                                </div>
+                                <a id="twitter" href="" target="_blank">Not available</a>
+                            </div>
+
+
+                            
+                            <div class="profile-info">
+                                <div class="bottom-icon">
+                                    <img src="./images/company-icon.svg" alt="">
+                                    
+                                </div>
+                                <p id="company">Not available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+    </div>
+
+    <script src="./index.js"></script>
+ 
+</body>
+</html>
